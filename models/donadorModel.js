@@ -10,7 +10,7 @@ const donadorSchema = new mongoose.Schema({
     required: true
   },
   telefono: {
-    type: String,
+    type: Number,
     required: true
   },
   edad: {
